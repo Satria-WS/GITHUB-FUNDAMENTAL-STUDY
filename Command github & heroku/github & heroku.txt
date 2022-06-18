@@ -1,0 +1,67 @@
+$ git init
+$ git add
+ 
+//automatic create
+$ heroku create
+
+//custom create
+$ heroku create example
+
+//view remote url
+$ git remote -v
+
+//check branch heroku
+$ git branch -a 
+
+
+//git commit heroku
+$ git commit -m "Add cool face API"
+
+$ git push heroku branch
+
+
+
+
+
+
+
+//## GITHUB
+
+//view status
+$ git status
+
+//view local branch
+$ git branch
+
+//view remote branch
+$ git branch -r
+
+//local and remote branches
+$ git branch -a
+
+//switch to a branch in your local repo
+$ git checkout my-branch-name
+
+//switch to a new branch in your local repo
+$ git switch -c non-existing-branch
+
+//switch to a branch in remote repo
+$ git pull
+$ git checkout --track origin/my-branch-name
+
+//create branch
+$ git checkout my-branch-name
+
+
+
+//##REFRENCE GITHUB
+https://www.nobledesktop.com/learn/git/git-branches
+https://devconnected.com/how-to-switch-branch-on-git/
+
+
+
+//##REFRENCE HEROKU
+https://git.heroku.com/login-interview-project.git
+https://devcenter.heroku.com/articles/git
+https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
+refrence: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true#set-up
